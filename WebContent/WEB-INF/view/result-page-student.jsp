@@ -2,8 +2,10 @@
 <html>
 	<head><title>Show Student date</title></head>
 	<body>
-		Student name: ${myStudent.firstName}
+		First Name: ${myStudent.firstName}
 		<br>
-		Student last name: ${myStudent.lastName}
+		Last Name: ${myStudent.lastName}
+		<br>
+		Country: ${myStudent.country}
 	</body>
 </html>
