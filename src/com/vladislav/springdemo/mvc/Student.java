@@ -8,7 +8,28 @@ public class Student {
 	private String lastName;
 	private String country;
 	private LinkedHashMap<String, String> countryOptions;
+	private String favoriteLanguage;
+	private String[] operatingSystems;
 	
+	
+
+
+	public String[] getOperatingSystems() {
+		return operatingSystems;
+	}
+
+	public void setOperatingSystems(String[] operatingSystems) {
+		this.operatingSystems = operatingSystems;
+	}
+
+	public String getFavoriteLanguage() {
+		return favoriteLanguage;
+	}
+
+	public void setFavoriteLanguage(String favoriteLanguage) {
+		this.favoriteLanguage = favoriteLanguage;
+	}
+
 	public Student() {
 		countryOptions = new LinkedHashMap<>();
 		countryOptions.put("UK", "Ukraine");

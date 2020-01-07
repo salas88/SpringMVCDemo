@@ -19,9 +19,6 @@ public class StudentController {
 	@RequestMapping("/acsessForm")
 	public String showResultStudentForm(@ModelAttribute("myStudent") Student theStudent) {
 		
-		// debag Student
-		System.out.println(theStudent.getFirstName() + " " + theStudent.getLastName());
-		
 		return "result-page-student";
 	}
 
