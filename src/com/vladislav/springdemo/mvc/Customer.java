@@ -6,6 +6,8 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
+
+
 public class Customer {
 	
 	private String firstName;
@@ -21,7 +23,7 @@ public class Customer {
 	
 	@Pattern(regexp = "^[a-zA-Z0-9]{5}", message ="Only 5 digits/chapter")
 	private String postalCode;
-
+	
 	public Integer getFreePasses() {
 		return freePasses;
 	}
